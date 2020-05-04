@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+    app:
+        image: openjdk:15-jdk
+        container_name: app
+        depends_on:
+            - server
+        entrypoint: ["sh", "/my_app/run.sh"]
+        volumes:
+            - ./app:/my_app/
+    server:
+        image: openjdk:15-jdk
+        container_name: serverTCP
+        entrypoint: ["sh", "/my_server/run.sh"]
+        volumes:
+            - ./server:/my_server/
+networks:
+    laboratorio-red:
+        driver: bridge
