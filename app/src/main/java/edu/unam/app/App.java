@@ -5,18 +5,18 @@ import java.security.NoSuchAlgorithmException;
 
 public class App {
     public static void main(String[] args) {
+        // TODO: Validaciones
         String nameNode = args[0];
-        float speed = Float.parseFloat(args[1]);
-        String host = args[2];
-        String port = args[3];
+        float speedEvent = Float.parseFloat(args[1]);
+        String hostNameServer = args[2];
+        int portServer = Integer.parseInt(args[3]);
 
-        System.out.println("nodo " + nameNode + " " + speed + " " + host + " " + port);
-        var velocidad = speed;
+        System.out.println("nodo " + nameNode + " " + speedEvent + " " + hostNameServer + " " + portServer);
 
-        ClientTCP client = new ClientTCP("localhost", 8000);
+        ClientTCP client = new ClientTCP(hostNameServer, portServer);
         client.connectToServer(nameNode);
-        DataOutputStream outputToServer = client.getOutputStreamOfSocket();
-        Generador generador = new Generador(velocidad);
+        DataOutputStream outputToServer = client.getDataOutputStream();
+        Generador generador = new Generador(speedEvent);
         try {
             generador.iniciar(outputToServer, nameNode);
         } catch (NoSuchAlgorithmException | InterruptedException e) {

@@ -46,13 +46,14 @@ public class Generador {
             byte[] hash = texto.digest(cadena.getBytes(StandardCharsets.UTF_8));
             // tiempo a esperar
             var esperar = valor();
-            // imprimo valores (Prueba)
+            // Creamos un evento
+            Event event = new Event(tiempo, nameNode, mostrarHexadecimal(hash));
             try {
-                outputToServer.writeUTF(tiempo + " " + nameNode + " " + mostrarHexadecimal(hash) + " " + esperar);
+                // se envia en evento en formato Json
+                outputToServer.writeUTF(event.toJson());
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            // System.err.println(tiempo + " " + mostrarHexadecimal(hash) + " " + esperar);
             Thread.sleep(esperar);
         }
         try {

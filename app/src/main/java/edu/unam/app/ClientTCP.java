@@ -9,7 +9,7 @@ public class ClientTCP {
     private String host;
     private int port;
     private Socket socket;
-    private DataOutputStream alServidor;
+    private DataOutputStream toServer;
 
     public ClientTCP(String host, int port) {
         this.host = host;
@@ -17,13 +17,10 @@ public class ClientTCP {
     }
 
     public void connectToServer(String nameNode) {
-        // Crear socket y conectar al servidor
-        Socket socket;
         try {
-            socket = new Socket(this.host, this.port);
-            this.socket = socket;
-            this.alServidor = new DataOutputStream(this.socket.getOutputStream());
-            this.alServidor.writeUTF(nameNode);
+            this.socket = new Socket(this.host, this.port);
+            this.toServer = new DataOutputStream(this.socket.getOutputStream());
+            this.toServer.writeUTF(nameNode);
         } catch (UnknownHostException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -31,8 +28,8 @@ public class ClientTCP {
         }
     }
 
-    public DataOutputStream getOutputStreamOfSocket() {
-        return this.alServidor;
+    public DataOutputStream getDataOutputStream() {
+        return this.toServer;
     }
 
     public void closeSocket() {

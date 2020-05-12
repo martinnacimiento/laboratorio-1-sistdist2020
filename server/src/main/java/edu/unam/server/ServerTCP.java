@@ -15,11 +15,14 @@ public class ServerTCP {
     public void listen() throws IOException {
         // Crear ServerSocket en un puerto
         ServerSocket svc = new ServerSocket(this.port);
+        String nameFileLog = "/logs - " + System.currentTimeMillis() + ".json";
+        Log logger = new Log(nameFileLog);
         for (;;) {
             try {
                 // Esperado conecciones
                 Socket socket = svc.accept();
-                AttentionTask attentionTask = new AttentionTask(socket);
+                var connectedAt = System.currentTimeMillis();
+                AttentionTask attentionTask = new AttentionTask(socket, connectedAt, logger);
                 Thread thread = new Thread(attentionTask);
                 thread.start();
                 if (this.off) {
