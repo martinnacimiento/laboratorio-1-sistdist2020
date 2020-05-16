@@ -1,0 +1,352 @@
+[
+  {
+    "time": 1589511918256,
+    "nameNode": "",
+    "hash": "890dbc9afc55c2be2bcc8e65e305f1d02a4f9d085cb0fcc3280ab54f713dfea3",
+    "timeDelay": 401,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511918017,
+    "nameNode": "",
+    "hash": "14089ad704676ffc3b06b586bb67685d5e137f5f2656298d783d4fa4d93427b8",
+    "timeDelay": 554,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511918028,
+    "nameNode": "",
+    "hash": "84868c828cd3dd8cc1944333581c8c029fe633a079471dcb3931d71d5fa1a239",
+    "timeDelay": 519,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511917777,
+    "nameNode": "",
+    "hash": "0ed0ace6fc7ef2ed50437435835a07c05d85fe0f2d980cf1cd6e78c3809fe5f8",
+    "timeDelay": 547,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511918461,
+    "nameNode": "",
+    "hash": "c1d7479939ad06e895a7a54c82752ace41baaac6bd1fcad8a341601b6f351a91",
+    "timeDelay": 320,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511919280,
+    "nameNode": "",
+    "hash": "97ab52ca8cc37e327418c1f5cfe05f5ce505ee0063308b2e95c1473effa1e77f",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511919686,
+    "nameNode": "",
+    "hash": "e59bd3d4970a738e3a70de6e236038e11291acfc1314595f7c016cfa2cd1b7c0",
+    "timeDelay": 5,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511919994,
+    "nameNode": "",
+    "hash": "55def9fe3c18a8f67b9db9c2f8b647d5c7221940d5057a4fc5bb7ec1a651ab8a",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511920006,
+    "nameNode": "",
+    "hash": "8f45a7c90fdd441bdb64915e448b43a50cf2be61181caab0ce87af556b9bf989",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511920057,
+    "nameNode": "",
+    "hash": "c4ca38c4f3525b375fbdb6c9a342d8d58703951fbdef4617599d8f071475dc09",
+    "timeDelay": 5,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511920532,
+    "nameNode": "",
+    "hash": "6212bea716cc52f00e316196668faa740222f1502dc981119766232e7d24b8a6",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511921077,
+    "nameNode": "",
+    "hash": "eadb5962f4510ccc1ff3ed3809f6f839e1e02ef2f5f1f26e25f167426d12a809",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511923048,
+    "nameNode": "",
+    "hash": "d444e2f92d01e34c5cc274201aa42dc40e5d7ea65a1764f210037e8d444c0108",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511924158,
+    "nameNode": "",
+    "hash": "66271dbee4e377ce4851b698e430862a286e00ba3e37190b47a2d954129bbc60",
+    "timeDelay": 5,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511924883,
+    "nameNode": "",
+    "hash": "833d3aa495a24078ab0980739e3cc19f25bcfcc95849eeb3b9ac9c834ee20598",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511924928,
+    "nameNode": "",
+    "hash": "0423e6dc57225c73b972752068896dc5b1005a84fd82e562031480e0f59feff6",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511925504,
+    "nameNode": "",
+    "hash": "d57cd6a0b227e3afe773f4b056d5d19923def0d1c063db21c6ee47d180258266",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511925645,
+    "nameNode": "",
+    "hash": "5717828b26748797c12854a46d8682e50f7b49962fc7582a2c7df872ba0567b0",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511926174,
+    "nameNode": "",
+    "hash": "053826377c9c54e8f768d4329985f119ef49a9322cd5408b2008a566565d12e9",
+    "timeDelay": 5,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511926251,
+    "nameNode": "",
+    "hash": "c63802f61e78ecf47a9e7464305fd303132b2ccf0bfb0cddad8866cd4c84265c",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511926331,
+    "nameNode": "",
+    "hash": "e3b816b2c1eb6deace7d020ac84b074ff58409545f434c0b7de62a4430fe89d1",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511927799,
+    "nameNode": "",
+    "hash": "da3e73b8dd1a7be247123133a54dec402305d1f724627183d2f2b830e74f2786",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511928238,
+    "nameNode": "",
+    "hash": "24227da286463abc6f620a4b790f1461eae068e423a06e7fa1bb843921ab015f",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511928510,
+    "nameNode": "",
+    "hash": "3385327386002ef2051bad05fa13aeddd8028c8d3528834c9a2441379bcc1764",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511929442,
+    "nameNode": "",
+    "hash": "945d2413b92a5d72f43faef2fc236a96d090c7da56e7c788f1d4f7af198f3985",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511929669,
+    "nameNode": "",
+    "hash": "df5d315596443c8676c15a4dbba10a0f9ab034a4a979daf16fcf0e2fa056ded7",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511929797,
+    "nameNode": "",
+    "hash": "b97ab41632a4ea1061064608d0c00916feeb8cd66c7bdf01b072c3051f99d82e",
+    "timeDelay": 5,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511929924,
+    "nameNode": "",
+    "hash": "c90d2f9447a549ef2f8b52cfcb92e8d5b942bcf7059cd0088a29c3bc1f355e85",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511929953,
+    "nameNode": "",
+    "hash": "878a1852a543c092e15e90a1b97ff91718b7da352b740a01e3c507ea8f419c1e",
+    "timeDelay": 2,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511930453,
+    "nameNode": "",
+    "hash": "7ab058cd1d57b188529e0e11db447f4bd9134832ad8613dffb04436ae3aea93d",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511930725,
+    "nameNode": "",
+    "hash": "1d577a882485852a553c2f42293f4767c393b6d581ffcaa6e5ae118853fc5bab",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511931757,
+    "nameNode": "",
+    "hash": "26931cbb1dd61e013b1d4b96e2068f05a314b3c7a9d008d39c593d0ed0a5f442",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511932038,
+    "nameNode": "",
+    "hash": "73ab722aff93c42437e56464c0566bbed23cd7c667721ce1b1c2a230304f2390",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511932226,
+    "nameNode": "",
+    "hash": "3c775c182ff04acce221cbadc4d0fa00f088a625ce0c49fb40e3991d6c5dea17",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511932380,
+    "nameNode": "",
+    "hash": "210200f1ecbf88c495fa30896aedab7d11556cc4f0d38b2705b2698690cb5730",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511932575,
+    "nameNode": "",
+    "hash": "01b06f65a2f7be17876377927af59c8d3d026c01021c6594e21101dd46b2e2e1",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511933412,
+    "nameNode": "",
+    "hash": "a6c0d0c96482fa1eb44f09e35a4edc7994599c1c1c58914fe2cfa83d33df6e71",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511933426,
+    "nameNode": "",
+    "hash": "34516fb26ed0b872c8b400a608b373f5c38365fa6fc651a7fddab67d2d2dfb00",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511933963,
+    "nameNode": "",
+    "hash": "34ede0966c59a65c3421bef69c2f5f6d86400118c7ca3be59f4f7ea9140e0c37",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511934492,
+    "nameNode": "",
+    "hash": "f3b40f4d56a519d77649341d689285d1314991bcf55f62ede10b5fcf1dced1e5",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511934714,
+    "nameNode": "",
+    "hash": "20fac2b6e6b6dab8815547bcb7cf7f90be068b238774b58e3f2c62464171e100",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511934723,
+    "nameNode": "",
+    "hash": "dd46b6c2413eb51558bd5925481a4a123c244a7c83ca7c24e680fc19dd24410e",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511934806,
+    "nameNode": "",
+    "hash": "7642e5dce519795f9ce666050bc5a6fc651c0f5194009305349e82a288255f54",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511935171,
+    "nameNode": "",
+    "hash": "883808eb163342f51bd2d9d366d52d335f1e1672d0aecd86627cbc26f041a501",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511935784,
+    "nameNode": "",
+    "hash": "8509a793008d5265a8770b494df6ccb550349c2bdc16bde599583e486f0544f0",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511935856,
+    "nameNode": "",
+    "hash": "9029560647afe80d0f365cac9709c2e482709186fa8cded573d995fcf984baef",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511938131,
+    "nameNode": "",
+    "hash": "5dda299521a5c2a72d236ed783ba3e31049ee7a3cf1c99f1dbe92684a2cfbf13",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511938650,
+    "nameNode": "",
+    "hash": "d0f4890ad52ab3b58e8fa6e7107debf0d9a2fd34ea4da9545a8b60749a4dbcf7",
+    "timeDelay": 4,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511949864,
+    "nameNode": "",
+    "hash": "9aafba52a8b8620cc72ec53532d6eb9dc4bb012c2f7226b1853c870021e165f5",
+    "timeDelay": 3,
+    "bandwidth": 110
+  },
+  {
+    "time": 1589511950753,
+    "nameNode": "",
+    "hash": "f18da587bff313bf01cfd4daf53789813367d0ddda5b8432defb1033e3668b7f",
+    "timeDelay": 4,
+    "bandwidth": 110
+  }
+]

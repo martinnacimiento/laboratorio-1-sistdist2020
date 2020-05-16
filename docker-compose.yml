@@ -1,20 +1,25 @@
 version: "3"
 
 services:
-    app:
+    node:
         image: openjdk:15-jdk
-        container_name: app
         depends_on:
             - server
-        entrypoint: ["sh", "/my_app/run.sh"]
+        entrypoint: ["java","-jar", "/my_app/app-1.0-SNAPSHOT.jar"]
+        command: ["node" ,"0.5", "server", "8000"]
+        networks:
+            - laboratorio-red
         volumes:
-            - ./app:/my_app/
+            - ./app/target:/my_app/
     server:
         image: openjdk:15-jdk
         container_name: serverTCP
-        entrypoint: ["sh", "/my_server/run.sh"]
+        entrypoint: ["java","-jar", "/my_server/server-1.0-SNAPSHOT.jar", "8000"]
         volumes:
-            - ./server:/my_server/
+            - ./server/target:/my_server/
+            - ./logs:/logs/
+        networks:
+            - laboratorio-red
 networks:
     laboratorio-red:
         driver: bridge

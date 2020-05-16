@@ -1,0 +1,11 @@
+set -e
+echo "Creando JAR de app..."
+mvn jar:jar -f "/workspaces/laboratorio-1/app/pom.xml"
+echo "JAR de app creado!"
+echo "Creando JAR de server..."
+mvn jar:jar -f "/workspaces/laboratorio-1/server/pom.xml"
+echo "JAR de server creado!"
+echo "Copiando dependecias de los proyectos..."
+mvn dependency:copy-dependencies -f "/workspaces/laboratorio-1/app/pom.xml"
+mvn dependency:copy-dependencies -f "/workspaces/laboratorio-1/server/pom.xml"
+echo "Todo listo!"

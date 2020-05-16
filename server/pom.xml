@@ -7,6 +7,7 @@
   <groupId>edu.unam.server</groupId>
   <artifactId>server</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <name>server</name>
   <!-- FIXME change it to the project's website -->
@@ -26,11 +27,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.msgpack</groupId>
-      <artifactId>msgpack-core</artifactId>
-      <version>0.8.20</version>
-    </dependency>
-    <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.8.6</version>
@@ -40,6 +36,25 @@
   <build>
     <pluginManagement>      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+        <!-- MAVEN-DEPENDENCY-PLUGIN -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>copy-dependencies</id>
+              <phase>package</phase>
+              <goals>
+                <goal>copy-dependencies</goal>
+              </goals>
+            </execution>
+          </executions>
+          <configuration>
+            <outputDirectory>
+                    ${project.build.directory}/libs
+            </outputDirectory>
+          </configuration>
+        </plugin>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
@@ -65,6 +80,7 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
+                <classpathPrefix>libs/</classpathPrefix>
                 <mainClass>edu.unam.server.App</mainClass>
               </manifest>
             </archive>

@@ -1,16 +1,14 @@
 set - e
-# Ejecutar servidor
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_5lsyh04kpz6wivacfsf4bvltd.argfile edu.unam.server.App 8000 &
-# Ejecutar nodos
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node1 5 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node2 0.2 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node3 0.3 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node4 0.4 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node5 0.5 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node6 2.5 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node7 0.5 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node8 0.8 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node9 0.5 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node10 0.9 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node11 0.2 localhost 8000 &
-/usr/java/openjdk-15/bin/java -Dfile.encoding=UTF-8 @/tmp/cp_4hpyx0pjswpq4dnrfetlv801m.argfile edu.unam.app.App node12 0.1 localhost 8000 &
+
+# crear red
+#docker network create red_tcp
+
+# ejecutar servidor
+docker run --rm --network red_tcp --name serverEvent -v $PWD/logs:/logs/ servidor_tcp 8000 &
+
+# ejecutar nodos
+docker run --rm --network red_tcp cliente_tcp node1 5 serverEvent 8000 &
+docker run --rm --network red_tcp cliente_tcp node2 5 serverEvent 8000
+
+# borrar
+#docker network rm red_tcp
