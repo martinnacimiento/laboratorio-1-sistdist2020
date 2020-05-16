@@ -1,7 +1,7 @@
 set - e
 
 # crear red
-#docker network create red_tcp
+docker network create red_tcp
 
 # ejecutar servidor
 docker run --rm --network red_tcp --name server_tcp_g10 -v $PWD/logs:/logs/ servidor_tcp_g10 8000 &
