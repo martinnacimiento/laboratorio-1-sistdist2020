@@ -1,0 +1,79 @@
+[
+  {
+    "time": 1589601526979,
+    "nameNode": "node1",
+    "hash": "31d4f36c9e1e298e7e18aca8e4df3ef54010438d4106a0f32c88bba9892437ac",
+    "timeDelay": 236,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601526813,
+    "nameNode": "node2",
+    "hash": "56fe926fc52aff6c4378a83a59160f91a141e22011625d0ec8930aaaa274586c",
+    "timeDelay": 268,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601527310,
+    "nameNode": "node2",
+    "hash": "e7ad8cc7d874d284c3a4796886888c0d205c14d499dcd75b747f1c96ce28fa7a",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601527570,
+    "nameNode": "node2",
+    "hash": "b5a1f028de2bae64ce722357f9d623295446bda3961d56dfdb92da8f4e707ab2",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601527692,
+    "nameNode": "node2",
+    "hash": "0ccd182e4b0918a2e0282814a88a0e66a9df1496bdcd38fd047e8e4e76cef905",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601527831,
+    "nameNode": "node2",
+    "hash": "6e1de0f143aace502d43c5bba9bf9bbbb2888832caab0f0597f41a976f992537",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601528213,
+    "nameNode": "node2",
+    "hash": "0974a0c2271697b78c68acfcb6f66afe1a683db31bdffc5ddee29881ea78cad0",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601528601,
+    "nameNode": "node2",
+    "hash": "6aa52f1c18937ef1e8278ff87400ebec90b66b094d590638844ba5b7638f1c4c",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601528628,
+    "nameNode": "node2",
+    "hash": "9a2584f79eeb1e8d721fb5a4d2802161b423f442e18b698b8176a826c2153bad",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601528817,
+    "nameNode": "node2",
+    "hash": "5e3fe49162fda53b686ff9838b2aedf46a46c318ce2dddb6364f4a806b6c3780",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601528938,
+    "nameNode": "node2",
+    "hash": "3e67af9f6656b17ada727a9cd6c5de1501ef9619984fe1cdeadfb6c1a9eac365",
+    "timeDelay": 2,
+    "bandwidth": 115
+  }
+]

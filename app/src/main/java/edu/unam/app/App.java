@@ -5,7 +5,6 @@ import java.security.NoSuchAlgorithmException;
 
 public class App {
     public static void main(String[] args) {
-        // TODO: Validaciones
         String nameNode = args[0];
         float speedEvent = Float.parseFloat(args[1]);
         String hostNameServer = args[2];

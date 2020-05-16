@@ -1,4 +1,8 @@
 set -e
+echo "Compilando app..."
+mvn compiler:compile -f "/workspaces/laboratorio-1/app/pom.xml"
+echo "Compilando server..."
+mvn compiler:compile -f "/workspaces/laboratorio-1/server/pom.xml"
 echo "Creando JAR de app..."
 mvn jar:jar -f "/workspaces/laboratorio-1/app/pom.xml"
 echo "JAR de app creado!"

@@ -1,25 +1,25 @@
 version: "3"
 
 services:
-    node:
-        image: openjdk:15-jdk
-        depends_on:
-            - server
-        entrypoint: ["java","-jar", "/my_app/app-1.0-SNAPSHOT.jar"]
-        command: ["node" ,"0.5", "server", "8000"]
-        networks:
-            - laboratorio-red
-        volumes:
-            - ./app/target:/my_app/
-    server:
-        image: openjdk:15-jdk
-        container_name: serverTCP
-        entrypoint: ["java","-jar", "/my_server/server-1.0-SNAPSHOT.jar", "8000"]
-        volumes:
-            - ./server/target:/my_server/
-            - ./logs:/logs/
-        networks:
-            - laboratorio-red
+  node:
+    image: maven:3.6.3-openjdk-15
+    depends_on:
+      - server
+    entrypoint: ["java", "-jar", "/my_app/app-1.0-SNAPSHOT.jar"]
+    command: ["node", "0.5", "server", "8000"]
+    networks:
+      - laboratorio1-red-g10
+    volumes:
+      - ./app/target:/my_app/
+  server:
+    image: maven:3.6.3-openjdk-15
+    container_name: serverTCP_g10_compose
+    entrypoint: ["java", "-jar", "/my_server/server-1.0-SNAPSHOT.jar", "8000"]
+    volumes:
+      - ./server/target:/my_server/
+      - ./logs:/logs/
+    networks:
+      - laboratorio1-red-g10
 networks:
-    laboratorio-red:
-        driver: bridge
+  laboratorio1-red-g10:
+    driver: bridge

@@ -1,0 +1,93 @@
+[
+  {
+    "time": 1589601472047,
+    "nameNode": "node2",
+    "hash": "e616963a1ea9493f7eaffa009f0c94a985135b6b70169f7d2cc4990063810a0d",
+    "timeDelay": 278,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601472156,
+    "nameNode": "node1",
+    "hash": "4a3c399a57635911c89d1ebe943379eeb4c44fcbfe9af00899c542a38f46f463",
+    "timeDelay": 222,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601472951,
+    "nameNode": "node1",
+    "hash": "f8ca5a827113d1aaa3d9ff929a05d5f11a6a6f799d2b3148492ed791e408867d",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601473131,
+    "nameNode": "node2",
+    "hash": "f58994d91ed0f47d5b5c5d2f6bcff651b7ac96ddb0051770f0605ae77fc181ce",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601473197,
+    "nameNode": "node2",
+    "hash": "537976555e6753fc5e28679640beee7d223ccf46d5bf91eae3a3ce408fceca8c",
+    "timeDelay": 6,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601473359,
+    "nameNode": "node2",
+    "hash": "721eaaa326c7aa505f6699cc2077b4b9f0d9e786f4191f27af3a9afbec568a88",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601473486,
+    "nameNode": "node2",
+    "hash": "001403589454aab70fe8f036732611a9efa62b1f329bba3ef6bd6cd6f951f1e1",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601473624,
+    "nameNode": "node2",
+    "hash": "0f31ec119724951486a0ba1073c10d09d6839f1295e1a81ebce8d28457fc033d",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601473806,
+    "nameNode": "node2",
+    "hash": "3e126b978bcce37040ff7870ea56e20920d8ebc635a906bd720e1ed145ae735d",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601473933,
+    "nameNode": "node1",
+    "hash": "17dfc9cce97e6072eb9556a3fb15409fa6429d3743755cbe43d2f981b1db1202",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601474072,
+    "nameNode": "node2",
+    "hash": "febb5611dae54e5a16a4d091414b288464c492cfab2faefd516164f4d2b88218",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601474112,
+    "nameNode": "node2",
+    "hash": "2e4f19a6ac5ce1643889f0d71852f8480864321c1a3baa43ac769589246c320b",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589601474377,
+    "nameNode": "node2",
+    "hash": "3ce2b2ece0c3403bedac97823d42e3433c70bbfc1b318e58919c4dc239c71507",
+    "timeDelay": 3,
+    "bandwidth": 115
+  }
+]
