@@ -1,0 +1,142 @@
+[
+  {
+    "time": 1589606575220,
+    "nameNode": "node1",
+    "hash": "23c257ca43855afc96f29b3a4dd2ee6d71c32e0d024ba8135d052272dc804a2a",
+    "timeDelay": 236,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606575195,
+    "nameNode": "node2",
+    "hash": "f916bff86587cf501b5ead45dcccfc9505269bf1a94c516ced90b0ad4e015673",
+    "timeDelay": 205,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606575469,
+    "nameNode": "node2",
+    "hash": "9d7c2622ea8908e621a225df5fa94cdfefb869798927a9c819f4333a930e0a23",
+    "timeDelay": 102,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606575655,
+    "nameNode": "node2",
+    "hash": "5c39781761bff6b6281ba9d4d4b72e6653566fd63c57e217ce2b0543d121f7da",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606575698,
+    "nameNode": "node1",
+    "hash": "ca1440baf3f72ee45b2b0ad59945df9072dea1b32031ecec6d4795df1e963313",
+    "timeDelay": 2,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606575794,
+    "nameNode": "node2",
+    "hash": "7c2745e7d18b62948eba5a4868766c0ec371ebe32d5138e8bad1751bf3596c1f",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606575887,
+    "nameNode": "node1",
+    "hash": "76d0b3dea5d389629e9c487de33650df3160be5c9e4c8cc771f72154de5d05fe",
+    "timeDelay": 6,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606576019,
+    "nameNode": "node2",
+    "hash": "fc057d26c74f83b16067c34a3aa93a8c5a3d03e992deb353317941fe019f4dab",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606576304,
+    "nameNode": "node2",
+    "hash": "e652e2bd4ecd6810d70a027a88d97671430598bfe60d949872827d756feeb1d7",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606576360,
+    "nameNode": "node2",
+    "hash": "2d9225a408195617baa39f81f19f7f6df3cfed7ecfa5b0b59918f5a62717339a",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606576713,
+    "nameNode": "node2",
+    "hash": "719952c577b598e35cff294a4cc3dcb5c24912d5e125d75079d24f38efe1311f",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606576992,
+    "nameNode": "node2",
+    "hash": "6015a25b3dfc5fd0c1999fde69ceb1177c833cfc1765295e9a1f8e3314ab9320",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606577195,
+    "nameNode": "node2",
+    "hash": "ea6e11099a5e0fddb2ad5d6346c382cc5638e0e2d4f152fb5f9fbe2359c602e4",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606578199,
+    "nameNode": "node1",
+    "hash": "02770ff8df323c323c2dae0bf86be29ba92209093c58e84f9c301bea64cf5bfd",
+    "timeDelay": 3,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606578955,
+    "nameNode": "node1",
+    "hash": "5e42427a1fbd024120a0b3b85c89fe4d65dcacd08800cf12ed4f60cfc4c5a5be",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606579898,
+    "nameNode": "node1",
+    "hash": "ef50cf7a0f4b6eeb6fa9491f8869918fe05287a3088a7b84f727f753b652aabb",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606581318,
+    "nameNode": "node1",
+    "hash": "4298d6bd67f9200247f7885b1f8b93deccdc7235bcf55bd99d49cd770b81689a",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606585218,
+    "nameNode": "node1",
+    "hash": "43febccdd6a6e4c72e7ab0aaa8b783215932d307b5daf03851797f02635d7e1b",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606586830,
+    "nameNode": "node1",
+    "hash": "72434d4136b8c775e213452650e831d84aa1cbc6b1e5ca06b0b985165e8dba4a",
+    "timeDelay": 4,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589606588544,
+    "nameNode": "node1",
+    "hash": "b480157928e099d832634c6c874478b526ee98b0a8ffbb290cc8816306c24392",
+    "timeDelay": 5,
+    "bandwidth": 115
+  }
+]
