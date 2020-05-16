@@ -18,7 +18,7 @@ Todos los avances y cambios del proyecto pueden ser vistos en el [changelog](./C
 Para utilizar el proyecto usted debe:
 
 1. Clonar el repositorio.
-2. Una vez clonado el repo ejecuta en tu consola (bash) `sh init.sh`. Podes ir a prepararte tu bebida favorito, comida y mirarte un capitulo de tu serie hasta que el comando termine de preparar el proyecto.
+2. Una vez clonado el repo ejecuta en tu consola (bash) `sh init.sh`. Podes ir a prepararte tu bebida favorita, comida y mirarte un capitulo de tu serie hasta que el comando termine de preparar el proyecto.
 3. Una vez listo el proyecto ejecuta `sh stage-1.sh` para probarlo.
 
 ## Escenarios 🤔
@@ -64,7 +64,24 @@ en donde:
 - **timeDelay**: es el retraso de tiempo desde que se generó el evento en el cliente y llegó al servidor.
 - **bandwidth**: es la longitud del evento transmitido por la red desde el cliente al servidor.
 
+## Cálculos ✍
+
+- Para calcular el **tiempo de retraso** de cada evento se realiza la diferencia entre la marca de tiempo del evento en la cual se generó dicho evento con la marca de tiempo en la cual se obtiene al momento de llegar en el servidor.
+- Para calcular el **ancho de banda** de cada evento se tomo la longitud de cada evento serializado en gson.
+
 ## Paquetes utilizados 📦
 
 - commons-math3
 - gson
+
+## Gráficos 📈
+
+Los gráficos fueron especialmente programados para estos archivos JSON mostrarlos de un forma entendible e intuitiva. Los mismos fueron construidos con:
+
+- Vue.js
+- Moments.js
+- VueChart.js
+
+![Chart 1](/img/chart-1.png)
+![Chart 1](/img/chart-1-hover.jpg)
+![Chart 1](/img/chart-2.png)
