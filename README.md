@@ -34,3 +34,37 @@ El escenario dos consta de 8 nodos, 5 Hz cada uno. Para probarlo ejecutar `sh st
 ## Logs 🕵
 
 Todos los logs se guardan en archivos JSON con su marca de tiempo en la carpeta `/logs`.
+
+En los logs se guarda cada evento que recibe el servidor. Ejemplo: un archivo se llamaría `logs - 1589607693051.json` y se vería:
+
+```JSON
+[
+  {
+    "time": 1589607700341,
+    "nameNode": "node5",
+    "hash": "e994b5179f233d6cc7bf69a011bd26102c8d7a07941713e8fbf32c117073e89a",
+    "timeDelay": 905,
+    "bandwidth": 115
+  },
+  {
+    "time": 1589607700955,
+    "nameNode": "node1",
+    "hash": "c9309b5cdced7d2fe17fb83e7cb9bff7da10baf6a2b7819778cda0cc6b73d7fc",
+    "timeDelay": 508,
+    "bandwidth": 115
+  }
+]
+```
+
+en donde:
+
+- **time**: es el tiempo en el cual el evento fue generado en el cliente.
+- **nameNode**: es el nombre del nodo el cual generó el evento.
+- **hash**: es un hash propio y único de cada evento.
+- **timeDelay**: es el retraso de tiempo desde que se generó el evento en el cliente y llegó al servidor.
+- **bandwidth**: es la longitud del evento transmitido por la red desde el cliente al servidor.
+
+## Paquetes utilizados 📦
+
+- commons-math3
+- gson
